@@ -123,11 +123,34 @@ article h2
 	
 }
 
+footer
+{
+	border: 1px solid green;
+	height: 30px;
+	padding:10px;
+	
+}
+header
+{
+	background-color: gray;
+	color: red;
+	padding: 5px;
+}
 /* 
 	ESTILOS REUTILIZABLES
     Regla con selector por CLASS para usar en todas las paginas
 */
 
+.cnt_article
+{
+	border: 1px solid blue;
+	padding: 10px 0;
+	margin: 10px 0;
+	/*
+	height: 100px;
+	margin: 10px 0;
+	*/
+}
 
 table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 	border:1px solid grey;
@@ -226,7 +249,7 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 #container{
 	width:900px;
 	background-color:#FFF;
-	min-height:700px;
+	min-height:1400px;
 	margin:0 auto;	
 	padding:0 20px;
 	border-right:1px solid grey;

@@ -3,7 +3,7 @@
 
 <div id="home">	
 	 
-	<!-- Contenido principal de la página -->
+	<!-- Contenido principal de la pÃ¡gina -->
 	<section>
 		<h2>&nbsp;</h2>
 		<article>
@@ -53,7 +53,7 @@
 		</article>
 	</section>	  		   
 	
-	<!-- Sidebar con contenido no-principal de la página -->  
+	<!-- Sidebar con contenido no-principal de la pï¿½gina -->  
    <aside>
 		<h3>Enlaces de inter&eacute;s</h3>
 		<ul>
