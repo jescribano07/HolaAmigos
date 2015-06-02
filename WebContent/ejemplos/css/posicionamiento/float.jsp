@@ -45,9 +45,9 @@
 		
 		<footer>
 			Cap&iacute;tulo 9; pagina 207
-			<a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html"> Libros Web - Limpiar Float</a>
-			<a href="http://es.learnlayout.com/clearfix.html"> Libros Web - Limpiar Float con overflow: hidden;</a>
-			<a href="http://jps.com.ve/flotando-elementos-en-css-y-la-magia-de-clearfix/"> Libros Web - Limpiar Float con clearfix</a>
+			<p><a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html"> Libros Web - Limpiar Float</a></p>
+			<p><a href="http://es.learnlayout.com/clearfix.html"> Libros Web - Limpiar Float con overflow: hidden;</a></p>
+			<p><a href="http://jps.com.ve/flotando-elementos-en-css-y-la-magia-de-clearfix/"> Libros Web - Limpiar Float con clearfix</a></p>
 		</footer>
 	
 	</article>
