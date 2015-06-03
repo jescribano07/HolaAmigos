@@ -1,3 +1,4 @@
+
 <nav> 
 	<ul>	
 		<li>
@@ -30,7 +31,7 @@
 			</ul>
 		</li>  
 		<li>
-			<h3>Etiquetas nuevas de HTML5</h3>
+			<h3>HTML5</h3>
 			<ul>
 				<li><a href="ejemplos/html5/figure.jsp">Figure</a></li>
 				<li><a href="ejemplos/html5/hgroup.jsp">Hgroup</a></li>
@@ -44,26 +45,26 @@
 			<h3>CSS</h3>
 			<ul>
 				<li>
-				<h4>Selectores</h4>
-				<ul>
-					<li><a href="ejemplos/css/selectores/atributos.jsp">Atributos</a></li>
-					<li><a href="ejemplos/css/selectores/hijos.jsp">Hijos</a></li>
-					<li><a href="ejemplos/css/selectores/adyacentes.jsp">Adyacentes</a></li>
-					<li><a href="ejemplos/css/selectores/p_clases.jsp">Pseudo-clases</a></li>
-					<li><a href="ejemplos/css/selectores/p_elementos.jsp">Pseudo-elementos</a></li>
-					<li><a href="ejemplos/css/selectores/css3.jsp">CSS3</a></li>
-				</ul>
+					<h4>Selectores</h4>
+					<ul>
+						<li><a href="ejemplos/css/selectores/atributos.jsp">Atributos</a></li>
+						<li><a href="ejemplos/css/selectores/hijos.jsp">Hijos</a></li>
+						<li><a href="ejemplos/css/selectores/adyacentes.jsp">Adyacentes</a></li>
+						<li><a href="ejemplos/css/selectores/p_clases.jsp">Pseudo-clases</a></li>
+						<li><a href="ejemplos/css/selectores/p_elementos.jsp">Pseudo-elementos</a></li>
+						<li><a href="ejemplos/css/selectores/css3.jsp">CSS3</a></li>
+					</ul>
 				</li>
 				<li>
-				<h4>Posicionamiento</h4>
-				<ul>
-					<li><a href="ejemplos/css/posicionamiento/normal.jsp">Normal</a></li>
-					<li><a href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a></li>
-					<li><a href="ejemplos/css/posicionamiento/absoluto.jsp">Absoluto</a></li>
-					<li><a href="ejemplos/css/posicionamiento/fijo.jsp">Fijo</a></li>
-					<li><a href="ejemplos/css/posicionamiento/inherit.jsp">Inherit</a></li>
-					<li><a href="ejemplos/css/posicionamiento/float.jsp">Posicionamiento flotante</a></li>
-				</ul>
+					<h4>Posicionamiento</h4>
+					<ul>
+						<li><a href="ejemplos/css/posicionamiento/normal.jsp">Normal</a></li>
+						<li><a href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a></li>
+						<li><a href="ejemplos/css/posicionamiento/absoluto.jsp">Absoluto</a></li>
+						<li><a href="ejemplos/css/posicionamiento/fijo.jsp">Fijo</a></li>
+						<li><a href="ejemplos/css/posicionamiento/inherit.jsp">Inherit</a></li>
+						<li><a href="ejemplos/css/posicionamiento/float.jsp">Posicionamiento flotante</a></li>
+					</ul>
 				</li>
 			</ul>
 		</li>    
