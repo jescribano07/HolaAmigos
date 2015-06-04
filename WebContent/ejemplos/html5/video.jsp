@@ -1,39 +1,31 @@
 <jsp:include page="../../plantillas/head.jsp"></jsp:include>
 <jsp:include page="../../plantillas/nav.jsp"></jsp:include>
   
-  	<br>
-	<hr>	
-	<br>
+<section>
+	<h2>Arranca pa tu cuarto</h2> 
+	<video width="600" height="auto" controls>	
+  		<source title="arranca pa tu cuarto" src="media/video_mihai.mp4" type="video/mp4">
+  		<!-- desable para compatibilidad con omas navegadores, varios sources .ogg . avi etc -->
+	</video>
 	
-	<section>
-		<h2>Ejemplo de video</h2>
-		<br>
-		<div>
-			<video width="320" height="240" controls>
-				<source src="media/mov_bbb.mp4" type="video/mp4">
-				<source src="media/mov_bbb.ogg" type="video/ogg">
-			</video>
-		</div>
+	<h2>Youtube - Surf Search Spot</h2> 	
+	<iframe width="500" height="282" 
+	        src="https://www.youtube.com/embed/LPDhuthFD98" 
+	        frameborder="0" allowfullscreen>
+	</iframe>	
 		
-		<div>			
-			<iframe width="560" height="315" 
-				src="https://www.youtube.com/embed/LPDhuthFD98" 
-				frameborder="0" allowfullscreen>
-			</iframe>	
-		</div>
+	<h2>Vimeo</h2> 		
+	<iframe src="https://player.vimeo.com/video/127431630" 
+	        width="500" height="282" frameborder="0" 
+	        webkitallowfullscreen mozallowfullscreen allowfullscreen>
+	        </iframe> 
+	        <p><a href="https://vimeo.com/127431630">regea is my heartbeat 1 dj ujin</a> from <a href="https://vimeo.com/user40046458">eugene muandale</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p>mixed by dj ujin.cell no:0718936787</p>
+	        
+	        
+<iframe id="widget_iframe" width="250" height="250" 
+        src="https://www.surfsearchspot.com/widget/?id_spot=396&class=w-250" 
+        frameborder="0" allowfullscreen scrolling="no"></iframe> 	        	
 		
-		<div>
-			<iframe id="widget_iframe" width="250" height="250" 
-				src="https://www.surfsearchspot.com/widget/?id_spot=757&class=w-250" 
-				frameborder="0" allowfullscreen scrolling="no">
-			</iframe>
-		</div>
-			
-	</section>
-	
-	<br>
-	<hr>	
-	<br>	
-		
+</section>
 
 <jsp:include page="../../plantillas/foot.jsp"></jsp:include>

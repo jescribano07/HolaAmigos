@@ -4,7 +4,7 @@
 
 <head>
 
- <base href="/HolaAmigos/">		
+  <base href="/HolaAmigos/">		
 
   <meta charset="utf-8">
 
@@ -27,16 +27,27 @@
 
 <div id="container">
 
-	<noscript>
-		<h3>Javascript desactivado!!!</h3>
-		<a href="">Â¿C&oacute;mo solucionarlo?</a>
-	</noscript>
+<noscript> 
+  <h1>JAVASCRIPT no habilitado</h1>
+   <!-- anchor linking to external file -->
+  <a href="#">¿Como solucionarlo?</a>
+</noscript>
+
+
+<header id="head">	
+
+	<div class="clearfix">
 	
-	<header>
 		<div id="logo">
-			<a href="" title="Volver a la home">
-				<img src="img/dado.png" alt="dado de 6 caras icono de la App Web"/>
-			</a>
-		 </div>
-		 <h1>Ejemplos HTML, CSS3 y JS</h1>
-	</header>	  
+		  	<a href="" title="Volver a la home">
+		  		<img src="img/dado.png" alt="dado de 6 caras icono de la App Web"/>
+		  	</a>
+		</div>
+		
+		<h1>Ejemplos de HTML5, CSS3 y JS</h1>
+		
+	</div>
+	
+	<!-- Navegacion menu principal  -->
+
+

@@ -1,64 +1,47 @@
 <jsp:include page="../../../plantillas/head.jsp"></jsp:include>
 <jsp:include page="../../../plantillas/nav.jsp"></jsp:include>
   
-  	<br>
-	<hr>	
-	<br>
-	<style>
-		p em:first-child 
-		{
-		  color: red;
-		}
-		p em
-		{
-			border: 1px solid blue;
-		}
-		div>a:link    
-		{ 
-			color: cyan;   
-		}
-		div>a:visited 
-		{ 
-			color: green; 
-		}
-		div>a:hover
-		{ 
-			color: blue; 
-		}
-		div>input:focus
-		{ 
-			border: 3px solid blue; 
-		}
-		:lang(fr) 
-		{ 
-			color: magenta; 
-		}
-	</style>
-	
-	<section>
-		<h2>Ejemplo de selectores avanzados - Pseudo-Clases</h2>
-		<br>	
-		<div>
-			<p>Lorem <span><em>ipsum dolor</em></span> sit amet, consectetuer adipiscing elit. Praesent odio sem, tempor quis, <em>auctor eu</em>, tempus at, enim. Praesent nulla ante, <em>ultricies</em> id, porttitor ut, pulvinar quis, dui.</p>
-			<a href="http://es.yahoo.com/" target="_blank">Yahoo</a>
-			<a href="https://www.google.es/" target="_blank">Google</a>
-			<input type="text"></input>
+<section>
+	<h2>Selectores de CSS</h2>
+
+	<article>	
+		<header>
+			<h1>Selector Adyacentes</h1>
+		</header>
 			
-			<p lang="en">Lorem ipsum dolor sit amet...</p>
-			<div lang="fr">
-				<p>Lorem ipsum dolor sit amet...</p>
-				<p lang="es_ES">Lorem ipsum dolor sit amet...</p>
+		<div class="cnt_article">
+			
+			<style>					
+				div + p:first-letter {
+					color: red;
+    				text-transform: uppercase;
+    				font-size: 60px;
+    				padding-left: 15px;    				
+    			}					
+			</style>
+			
+			<div>			
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>				
 			</div>
-			<p lang="en">Lorem ipsum dolor sit amet...</p>
-			<ul>
-			  <li lang="fr">Lorem ipsum dolor sit amet...</li>
-			</ul>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
+			
 		</div>
-	</section>
+			
+		<footer>
+			Capitulo 8; pagina 187
+		</footer>
+			
+	</article>
 	
-	<br>
-	<hr>	
-	<br>	
-		
+	
+	
+	
+	
+	
+	
+</section>
 
 <jsp:include page="../../../plantillas/foot.jsp"></jsp:include>

@@ -1,48 +1,47 @@
-
 <jsp:include page="../../../plantillas/head.jsp"></jsp:include>
 <jsp:include page="../../../plantillas/nav.jsp"></jsp:include>
+  
+<section>
+	<h2>Selectores de CSS</h2>
 
-<style>		
-	div + p { color:blue;}
-	div + p::first-letter 
-	{ 
-		text-transform: uppercase;
-		font-size: 60px;
-		padding-left: 15px;
-		color: red;
-	}
-	</style>
-
-<section id="pag_selectores">
-
-	<article>
+	<article>	
 		<header>
-			<h2>Selector adyacente</h2>
+			<h1>Selector Adyacentes</h1>
 		</header>
-		
-		<div class="cnt_article">		
-		
-			<div>
-				<p id="p1"><strong>p1 Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit.Curabitur quis neque elementum, auctor ex quis, aliquet turpis.<em>Fusce et neque pulvinar nunc </em>ullamcorper tristique. Donec blandit semper elementum. Pellentesque habitant morbi tristique senectus <strong>et netus et <em>malesuada</em> </strong>fames ac turpis egestas. Phasellus lacinia vehicula ipsum eu scelerisque. Vestibulum blandit risus eget est gravida dignissim. Praesent eget nunc imperdiet, pellentesque mauris et, feugi<span class="highlight">at</span>ligula. In ornare sed enim eu fringilla.</p>
-				<br/>
-				<p id="p2"><strong>p2 Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit.Curabitur quis neque elementum, auctor ex quis, aliquet turpis.<em>Fusce et neque pulvinar nunc </em>ullamcorper tristique. Donec blandit semper elementum. Pellentesque habitant morbi tristique senectus <strong>et netus et <em>malesuada</em> </strong>fames ac turpis egestas. Phasellus lacinia vehicula ipsum eu scelerisque. Vestibulum blandit risus eget est gravida dignissim. Praesent eget nunc imperdiet, pellentesque mauris et, feugi<span class="highlight">at</span>ligula. In ornare sed enim eu fringilla.</p>
-				<br/>	
+			
+		<div class="cnt_article">
+			
+			<style>					
+				div + p:first-letter {
+					color: red;
+    				text-transform: uppercase;
+    				font-size: 60px;
+    				padding-left: 15px;    				
+    			}					
+			</style>
+			
+			<div>			
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>				
 			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			
-			<p id="p3"><strong>p1 Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit.Curabitur quis neque elementum, auctor ex quis, aliquet turpis.<em>Fusce et neque pulvinar nunc </em>ullamcorper tristique. Donec blandit semper elementum. Pellentesque habitant morbi tristique senectus <strong>et netus et <em>malesuada</em> </strong>fames ac turpis egestas. Phasellus lacinia vehicula ipsum eu scelerisque. Vestibulum blandit risus eget est gravida dignissim. Praesent eget nunc imperdiet, pellentesque mauris et, feugi<span class="highlight">at</span>ligula. In ornare sed enim eu fringilla.</p>
-			<br/>
-			<p id="p4"><strong>p2 Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit.Curabitur quis neque elementum, auctor ex quis, aliquet turpis.<em>Fusce et neque pulvinar nunc </em>ullamcorper tristique. Donec blandit semper elementum. Pellentesque habitant morbi tristique senectus <strong>et netus et <em>malesuada</em> </strong>fames ac turpis egestas. Phasellus lacinia vehicula ipsum eu scelerisque. Vestibulum blandit risus eget est gravida dignissim. Praesent eget nunc imperdiet, pellentesque mauris et, feugi<span class="highlight">at</span>ligula. In ornare sed enim eu fringilla.</p>
-			<br/>
 			
-		</div>		
-		
+		</div>
+			
 		<footer>
-		
+			Capitulo 8; pagina 187
 		</footer>
-	
+			
 	</article>
-
+	
+	
+	
+	
+	
+	
+	
 </section>
 
 <jsp:include page="../../../plantillas/foot.jsp"></jsp:include>
-

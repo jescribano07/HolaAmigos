@@ -1,57 +1,70 @@
-
 <jsp:include page="../../../plantillas/head.jsp"></jsp:include>
 <jsp:include page="../../../plantillas/nav.jsp"></jsp:include>
-
-
+  
 <section>
 	<h2>Posicionamiento en CSS</h2>
-	<article>
+
+	<article>	
 		<header>
-			<h1>Elementos flotantes</h1>
+			<h1>Elementos Flotantes</h1>			
 		</header>
 		
-		<style>
-			.cnt_article div
-			{
-				border: 5px solid green;
-				width: 100px;
-				height: 100px;
-				margin-bottom: 5px;
-			}
-		.cnt_article #capa1
-			{
-				background-color: green;
-				float: left;
-			}
-			.cnt_article #capa2
-			{
-				background-color: red;
-				float: left;
-			}
-			.cnt_article #capa3
-			{
-				background-color: blue;
-				float: left;
-				clear: left;
-			}
-		</style>
+		<style>				
+				
+			.cnt_article div{
+				border:1px solid green;
+				width: 100px;				
+				height: 100px;				
+				margin-bottom: 5px;			
+			}				
 			
-		<div class="cnt_article">		
-			<div id="capa1">Capa1</div>
-			<div id="capa2">Capa2</div>		
-			<div id="capa3">Capa3</div>
-		  	<p style="clear: both; border:1px dotted gray">Parrafo invisible para hacer CLEAR BOTH</p>
-		</div>	
+			#capa1{				
+				background-color: green;
+				float:left;							
+			}	
+			
+			#capa2{
+				background-color: red;		
+				float:left;					
+			}	
+			
+			#capa3{
+				background-color: blue;
+				float:left;		
+				clear: left;						
+			}
+					
+		</style>	
 		
-		<footer>
-			Cap&iacute;tulo 9; pagina 207
-			<p><a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html">Limpiar Float - Libros Web</a></p>
-			<p><a href="http://es.learnlayout.com/clearfix.html">Limpiar Float con overflow: hidden o overflow: auto;</a></p>
-			<p><a href="http://jps.com.ve/flotando-elementos-en-css-y-la-magia-de-clearfix/">Limpiar Float con clearfix</a></p>
-		</footer>
+		<div class="cnt_article">			
+			
+			<div id="capa1">Capa1</div>
+			<div id="capa2">Capa2</div>
+			<div id="capa3">Capa3</div>
+			
+			<p style="clear: both; border:1px dotted grey">Parrafo invisible para hacer CLEAR BOTH</p>
+						
+		</div>
+			
+			
+			
 	
+			
+		<footer>
+			Capitulo 9; pagina 207
+			<a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html" target="_blank">Css Avanzado: Limpiar floats</a>
+			<a href="http://es.learnlayout.com/clearfix.html">ClearFix auto</a>
+			<a href="http://jps.com.ve/flotando-elementos-en-css-y-la-magia-de-clearfix/">ClearFix con CSS</a>
+		</footer>
+			
 	</article>
-
+	
+	
+	
+	
+	
+	
+	
 </section>
 
 <jsp:include page="../../../plantillas/foot.jsp"></jsp:include>

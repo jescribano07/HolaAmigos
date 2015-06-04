@@ -9,7 +9,7 @@
 			<h3><a href="<%=request.getRequestURL()%>#p3" title="Ir a sección X3">Hola clase!!3</a></h3>  
 			<h4><a href="<%=request.getRequestURL()%>#p4" title="Ir a sección X4">Hola clase!!4</a></h4>
 			<h5><a href="<%=request.getRequestURL()%>#p5" title="Ir a sección X5">Hola clase!!5</a></h5>
-			<h5><a href="<%=request.getRequestURL()%>#p6" title="Ir a sección X6">Hola clase!!6</a></h6>
+			<h6><a href="<%=request.getRequestURL()%>#p6" title="Ir a sección X6">Hola clase!!6</a></h6>
 		
 			<a href="#ej1">Ejemplo Etiquetas de Linea y Bloque</a>
 			<a href="#ej2">Ejemplo Listas</a>
@@ -60,6 +60,6 @@
 		<br/>
 		<br/>
 		
-	</div>
+	
 	
 <jsp:include page="../../plantillas/foot.jsp"></jsp:include>
